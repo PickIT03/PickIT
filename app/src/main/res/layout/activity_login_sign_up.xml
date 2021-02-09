@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/yellow"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginSignUp"
+    >
+    <Spinner
+        android:id="@+id/spinnerView"
+        android:layoutMode="clipBounds"
+        android:spinnerMode="dropdown"
+        android:background="@drawable/style_spinner"
+        android:entries="@array/entry"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_margin="20dp"
+        app:layout_constraintVertical_bias="0.6"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <Button
+        android:textColor="@color/white"
+        android:text="@string/login"
+        android:textSize="20sp"
+        android:background="@drawable/buttonlayout_bg"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:onClick="login"
+        app:layout_constraintStart_toStartOf="@id/spinnerView"
+        app:layout_constraintEnd_toEndOf="@id/spinnerView"
+        app:layout_constraintTop_toBottomOf="@id/spinnerView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.5"/>
+    <Button
+        android:textColor="@color/white"
+        android:text="@string/signup"
+        android:textSize="20sp"
+        android:background="@drawable/buttonlayout_bg"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:onClick="signUp"
+        app:layout_constraintStart_toStartOf="@id/spinnerView"
+        app:layout_constraintEnd_toEndOf="@id/spinnerView"
+        app:layout_constraintTop_toBottomOf="@id/spinnerView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.8"/>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        app:layout_constraintVertical_bias="0.1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/login_or_signup" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Are U A Customer Or A Shop Owner ?"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@id/textView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Choose Here "
+        android:textStyle="bold"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/spinnerView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:drawableEndCompat="@drawable/ic_arrow_downward" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

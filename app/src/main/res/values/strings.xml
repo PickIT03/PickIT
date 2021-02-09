@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">PickIT</string>
+    <string name="app_tagline">Be Safe With Us</string>
+    <string name="pick_it">PickIT</string>
+    <string name="skip">Skip</string>
+    <string name="continues">Continue</string>
+    <string-array name="entry">
+        <item>Customer</item>
+        <item>Shop Owner</item>
+    </string-array>
+    <string name="login">LOGIN</string>
+    <string name="signup">SIGN UP</string>
+    <string name="create_account">CREATE ACCOUNT</string>
+    <string name="phone_no">Phone No</string>
+    <string name="name">Name</string>
+    <string name="shopname">ShopName</string>
+    <string name="password">Password</string>
+    <string name="oldpassword">Enter Old Password</string>
+    <string name="newpassword">Enter New Password</string>
+    <string name="retypepassword">Retype New Password</string>
+    <string name="verify_your_password">Retype Password</string>
+    <string name="join_us">Join Us</string>
+    <string name="savechanges">Save Changes and Login Again</string>
+    <string name="retry">Retry</string>
+    <string name="successfully_signed">Successfully Signed</string>
+    <string name="UUID">UUID No</string>
+    <string name="address">Address</string>
+    <string name="enter">Enter</string>
+    <string name="forgotPass">Forgot Password</string>
+    <string name="logout">Logout</string>
+    <string name="changepass">Change Password</string>
+    <string name="search_here">Search Here</string>
+    <string name="open_nav_drawer">Open Navigation Drawer</string>
+    <string name="close_nav_drawer">Close Navigation Drawer</string>
+    <string name="available">Available</string>
+    <string name="rs">\u20B9</string>
+    <string name="lays">https://www.kindpng.com/picc/m/326-3264810_lays-classic-potato-chips-lays-chips-salted-hd.png</string>
+    <string name="apple">https://toppng.com/public/uploads/preview/apple-fruit-11526067113bpkdzjmq8g.png</string>
+    <string name="oats">https://www.patanjaliayurved.net/assets/product_images/400x300/1548324100oats1kg400-300.png</string>
+    <string name="doveshampoo">https://n3.sdlcdn.com/imgs/b/j/w/Dove-Daily-Shine-Shampoo-Sachet-SDL435076233-1-cdca0.jpg</string>
+    <string name="sugarloose">https://5.imimg.com/data5/SELLER/Default/2020/9/FV/LY/NX/1455081/icumsa-45-sugar-for-export-250x250.jpg</string>
+    <string name="udhayammdhaal">https://images-na.ssl-images-amazon.com/images/I/819D8piBVKL._SL1500_.jpg</string>
+    <string name="udhayamtdhall">https://d2kdglzc10kby8.cloudfront.net/products/35640/udhaiyam-dhall-toor-500-gm-pouch-680966_image_1537954403_357x400.jpg</string>
+    <string name="ujala">https://4.imimg.com/data4/QP/BO/GLADMIN-32331052/3-500x500.jpg</string>
+    <string name="darkfantasy">https://4.bp.blogspot.com/-ed4J-xzyqsM/Wzxd9psdX_I/AAAAAAAAafE/mM2ZewDr-48olh2HSX51Ad8zBOJu13jbACLcBGAs/s640/Screen%2BShot%2B2018-07-04%2Bat%2B11.08.40%2BAM.png</string>
+    <string name="maggi">https://www.pngitem.com/pimgs/m/225-2253415_maggi-masala-noodles-140g-hd-png-download.png</string>
+    <string name="salt">https://images-na.ssl-images-amazon.com/images/I/61n1hm72dlL._SL1000_.jpg</string>
+    <string-array name="imageResources">
+        <item>apple</item>
+        <item>lays</item>
+        <item>maggi</item>
+        <item>DoveShampoo</item>
+        <item>Salt</item>
+        <item>SugarLoose</item>
+        <item>Udhayam Moong Dhall</item>
+        <item>Udhayam Toor Dhall</item>
+        <item>Dark Fantasy</item>
+        <item>Oats</item>
+        <item>Ujala</item>
+    </string-array>
+    <string-array name="quantities">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+</resources>
