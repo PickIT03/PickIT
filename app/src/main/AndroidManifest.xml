@@ -13,37 +13,60 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PickIT">
-        <activity android:name=".SplashScreen">
+        <activity android:name=".SplashScreen"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".shopowner.AddProActivity" />
-        <activity android:name=".customer.views.SearchActivity" />
-        <activity android:name=".customer.views.VerifyOTP" />
-        <activity android:name=".shopowner.AddProductActivity" />
-        <activity android:name=".customer.views.SuccessfullyOrdered" />
-        <activity android:name=".shopowner.Ordered" />
-        <activity android:name=".customer.views.NewPassword" />
-        <activity android:name=".customer.views.ForgotPassword" />
-        <activity android:name=".customer.views.ChangePassword" />
-        <activity android:name=".customer.views.ProductDetail" />
-        <activity android:name=".customer.views.Cart" />
-        <activity android:name=".customer.views.Successfully_SignedUp_Customer" />
+        <activity android:name=".shopowner.AddProActivity"
+            android:exported="false"/>
+        <activity android:name=".customer.views.SearchActivity"
+            android:exported="false"/>
+        <activity android:name=".customer.views.VerifyOTP"
+            android:exported="false"/>
+        <activity android:name=".shopowner.AddProductActivity"
+            android:exported="false"/>
+        <activity android:name=".customer.views.SuccessfullyOrdered"
+            android:exported="false"/>
+        <activity android:name=".shopowner.Ordered"
+            android:exported="false"/>
+        <activity android:name=".customer.views.NewPassword"
+            android:exported="false"/>
+        <activity android:name=".customer.views.ForgotPassword"
+            android:exported="false"/>
+        <activity android:name=".customer.views.ChangePassword"
+            android:exported="false"/>
+        <activity android:name=".customer.views.ProductDetail"
+            android:exported="false"/>
+        <activity android:name=".customer.views.Cart"
+            android:exported="false"/>
+        <activity android:name=".customer.views.Successfully_SignedUp_Customer"
+            android:exported="false"/>
         <activity
             android:name=".customer.views.CustomerHomeScreen"
-            android:screenOrientation="portrait" />
-        <activity android:name=".shopowner.ShopOwnerLogin" />
-        <activity android:name=".shopowner.ShopOwnerSignUp" />
-        <activity android:name=".shopowner.ShopOwnerHomeScreen" />
-        <activity android:name=".customer.views.ShopSelection" />
-        <activity android:name=".shopowner.Successfully_SignedUp_ShopOwner" />
-        <activity android:name=".customer.views.CustomerLoginActivity" />
-        <activity android:name=".customer.views.CustomerSignUp" />
-        <activity android:name=".LoginSignUp" />
-        <activity android:name=".OnBoardingActivity" />
+            android:screenOrientation="portrait"
+            android:exported="false"/>
+        <activity android:name=".shopowner.ShopOwnerLogin"
+            android:exported="false"/>
+        <activity android:name=".shopowner.ShopOwnerSignUp"
+            android:exported="false"/>
+        <activity android:name=".shopowner.ShopOwnerHomeScreen"
+            android:exported="false"/>
+        <activity android:name=".customer.views.ShopSelection"
+            android:exported="false"/>
+        <activity android:name=".shopowner.Successfully_SignedUp_ShopOwner"
+            android:exported="false"/>
+        <activity android:name=".customer.views.CustomerLoginActivity"
+            android:exported="false"/>
+        <activity android:name=".customer.views.CustomerSignUp"
+            android:exported="false"/>
+        <activity android:name=".LoginSignUp"
+            android:exported="false"/>
+        <activity android:name=".OnBoardingActivity"
+            android:exported="false"/>
     </application>
 
 </manifest>

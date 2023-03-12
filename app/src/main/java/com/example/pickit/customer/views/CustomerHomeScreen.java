@@ -21,6 +21,7 @@ import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.pickit.LoginSignUp;
 import com.example.pickit.R;
 import com.example.pickit.customer.models.Product;
 import com.example.pickit.customer.viewmodels.ShopViewModel;
@@ -137,8 +138,10 @@ public class CustomerHomeScreen extends AppCompatActivity implements RecyclerPro
         builder.setPositiveButton("YES", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
-                activity.finishAffinity();
-                System.exit(0);
+//                activity.finishAffinity();
+                activity.startActivity(new Intent(activity, LoginSignUp.class));
+                activity.finish();
+//                System.exit(0);
             }
         });
         builder.setNegativeButton("NO", new DialogInterface.OnClickListener() {

@@ -20,19 +20,19 @@ public class SplashScreen extends AppCompatActivity {
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-                onBoardingScreen=getSharedPreferences("onBoardingScreen",MODE_PRIVATE);
-                boolean isFirstTime=onBoardingScreen.getBoolean("firstTime",true);
-                if(isFirstTime){
-                    SharedPreferences.Editor editor = onBoardingScreen.edit();
-                    editor.putBoolean("firstTime",false);
-                    editor.commit();
-                    startActivity(new Intent(SplashScreen.this,OnBoardingActivity.class));
-                    finish();
-                }
-                else{
+//                onBoardingScreen=getSharedPreferences("onBoardingScreen",MODE_PRIVATE);
+//                boolean isFirstTime=onBoardingScreen.getBoolean("firstTime",true);
+//                if(isFirstTime){
+//                    SharedPreferences.Editor editor = onBoardingScreen.edit();
+//                    editor.putBoolean("firstTime",false);
+//                    editor.commit();
+//                    startActivity(new Intent(SplashScreen.this,OnBoardingActivity.class));
+//                    finish();
+//                }
+//                else{
                     startActivity(new Intent(SplashScreen.this,LoginSignUp.class));
                     finish();
-                }
+//                }
 
 
 
